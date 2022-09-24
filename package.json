@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/erenyenigul/react-native-vexflow-canvas#readme",
   "dependencies": {
-    "react-native-svg": "^13.2.0",
     "vexflow": "^4.0.3"
   }
 }
