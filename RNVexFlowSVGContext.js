@@ -1,6 +1,6 @@
 import React from 'react';
 import { SVGContext } from 'vexflow';
-import Svg, { Path, Rect, G } from 'react-native-svg';
+import Svg, { Text, Path, Rect, G } from 'react-native-svg';
 
 const propMap = {
     "font-family": "fontFamily",
