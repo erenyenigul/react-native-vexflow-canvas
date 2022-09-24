@@ -1,7 +1,5 @@
 import React from "react";
-import { SVGContext } from "vexflow/src/svgcontext";
-import RNVexFlowSVGContext from "./RNVexFlowContext";
-import Svg, { Path, Rect, G, Text } from "react-native-svg";
+import RNVexFlowSVGContext from "./RNVexFlowSVGContext";
 
 class VexCanvas extends React.Component {
     constructor(props) {
