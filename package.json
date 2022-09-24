@@ -1,0 +1,32 @@
+{
+  "name": "react-native-vexflow-canvas",
+  "version": "1.0.0",
+  "description": "Canvas Element & SVGContext for using VexFlow in React Native.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erenyenigul/react-native-vexflow-canvas.git"
+  },
+  "keywords": [
+    "VexFlow",
+    "React",
+    "Native",
+    "Vex",
+    "Music",
+    "Notation",
+    "Canvas"
+  ],
+  "author": "Eren Yenigül",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erenyenigul/react-native-vexflow-canvas/issues"
+  },
+  "homepage": "https://github.com/erenyenigul/react-native-vexflow-canvas#readme",
+  "dependencies": {
+    "react-native-svg": "^13.2.0",
+    "vexflow": "^4.0.3"
+  }
+}
