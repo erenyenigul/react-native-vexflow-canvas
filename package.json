@@ -1,6 +1,6 @@
 {
   "name": "react-native-vexflow-canvas",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Canvas Element & SVGContext for using VexFlow in React Native.",
   "main": "index.js",
   "scripts": {
