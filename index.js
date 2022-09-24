@@ -1,7 +1,8 @@
 import VexCanvas from "./VexCanvas";
-import RNVexFlowContext from "./RNVexFlowContext";
+import RNVexFlowSVGContext from "./RNVexFlowSVGContext";
 
-module.exports = {
-    VexCanvas, 
-    RNVexFlowContext
+export {
+    RNVexFlowSVGContext
 }
+
+export default VexCanvas;
