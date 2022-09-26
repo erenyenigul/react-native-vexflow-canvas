@@ -42,7 +42,8 @@ The package provides two main utilities: ``VexCanvas`` and ``RNVexFlowSVGContext
 
 | Prop | Descripton |
 |----|----|
-| size | width & height of the canvas. Pass an object that has ``{width, height} ``.|
+| width | width  of the canvas.|
+| height | height  of the canvas.|
 | draw | callback function which takes a reference to canvas. you can use it to access the context. |
 
 
