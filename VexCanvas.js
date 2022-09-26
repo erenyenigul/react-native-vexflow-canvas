@@ -5,9 +5,7 @@ class VexCanvas extends React.Component {
     constructor(props) {
         super(props);
 
-        const context = new RNVexFlowSVGContext(
-          props.size
-        );
+        const context = new RNVexFlowSVGContext(props.width, props.height);
 
         this.state = {
             context,

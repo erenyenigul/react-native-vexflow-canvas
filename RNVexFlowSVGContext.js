@@ -1,6 +1,6 @@
-import React from 'react';
-import { SVGContext } from 'vexflow';
-import Svg, { Text, Path, Rect, G } from 'react-native-svg';
+import React from "react";
+import { SVGContext } from "vexflow";
+import Svg, { Text, Path, Rect, G } from "react-native-svg";
 
 const propMap = {
     "font-family": "fontFamily",
@@ -142,10 +142,13 @@ const contextClasses = {
 };
 
 class RNVexFlowSVGContext extends SVGContext {
-    constructor({ width = 250, height = 250 }) {
+    constructor(width, height) {
         super(new DivContextElement(), "div");
 
-        this.svg.applyProps({ width, height });
+        this.svg.applyProps({
+            width: width ? width : 250,
+            height: height ? height : 250,
+        });
         this.nextElementKey = 1;
     }
 
